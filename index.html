@@ -15,19 +15,16 @@
     <div class="container" id="container">
         <div class="row" id="welcome">
             <div class="col-lg-12">
-                <h1>Welcome to the Code Quiz!</h1>
+                <h1>Welcome to the Dog Quiz!</h1>
                 <hr>
             </div>
         </div>
-        <div class="questions">
-            <div class="row"><button class="btn btn-success" id="button1" value="1"></button></div>
-            <div class="row"><button class="btn btn-success" id="button2" value="2"></button></div>
-            <div class="row"><button class="btn btn-success" id="button3" value="3"></button></div>
-            <div class="row"><button class="btn btn-success" id="button4" value="4"></button></div>
-
-
-
-
+        <div class="questions" id="questionsContainer">
+            <h2><span id="questionText"></span></h2>
+            <div class="row"><button class="btn btn-success option" id="button1" value="1"></button></div>
+            <div class="row"><button class="btn btn-success option" id="button2" value="2"></button></div>
+            <div class="row"><button class="btn btn-success option" id="button3" value="3"></button></div>
+            <div class="row"><button class="btn btn-success option" id="button4" value="4"></button></div>
         </div>
         <div class="row controlBtns">
             <div class="col-md-6">
@@ -36,6 +33,9 @@
             <div class="col-md-6">
                 <button class="btn btn-success" id="highscores">High Scores</button>
             </div>
+        </div>
+        <div id="highScoresPage">
+            <h3>You've completed the quiz!</h3>
         </div>
     </div>
 </body>

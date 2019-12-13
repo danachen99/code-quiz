@@ -8,8 +8,20 @@ var questions = [{
         choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
         answer: "parentheses"
     },
-    {},
-    {},
-    {}
+    {
+        title: "",
+        choices: [],
+        answer: ""
+    },
+    {
+        title: "",
+        choices: [],
+        answer: ""
+    },
+    {
+        title: "",
+        choices: [],
+        answer: ""
+    }
 
 ];

@@ -9,3 +9,13 @@
 .btn {
     margin: 5px auto;
 }
+
+.questions,
+#highScoresPage {
+    display: none;
+}
+
+#welcome,
+.controlBtns {
+    display: flex;
+}
